@@ -7,5 +7,7 @@ namespace group1.Models
 {
     public class Cart
     {
+
+        public virtual int Id { get; set; }
     }
 }
