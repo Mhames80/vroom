@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace group1.Models
 {
-    public class Clubmember
+    public class ClubMember
     {
         public virtual int Id { get; set; }
     }
