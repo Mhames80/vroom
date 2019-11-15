@@ -11,7 +11,7 @@ namespace group1.Models
 
         public virtual int Id { get; set; }
         public virtual string   Part{get; set; }
-        public virtual string model{ get; set; }
+        public virtual string Model{ get; set; }
         [DataType(DataType.Currency)]
         public virtual Decimal Price { get; set; }
         public virtual int Quanity { get; set; }

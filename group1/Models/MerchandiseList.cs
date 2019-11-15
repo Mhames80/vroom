@@ -9,8 +9,8 @@ namespace group1.Models
     public class MerchandiseList
     {
         public virtual int Id { get; set; }
-        public virtual string item { get; set; }
-        public virtual string size { get; set; }
+        public virtual string Item { get; set; }
+        public virtual string Size { get; set; }
         [DataType(DataType.Currency)]
         public virtual Decimal Price { get; set; }
         public virtual int Quanity { get; set; }
