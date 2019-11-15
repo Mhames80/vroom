@@ -5,8 +5,11 @@ using System.Threading.Tasks;
 
 namespace group1.Models
 {
-    public class Shop
+    public class DisscusionBoard
     {
         public virtual int Id { get; set; }
+        public virtual string Comment { get; set; }
+
+        public virtual DateTime PostedAt { get; set; } = DateTime.Now;
     }
 }
