@@ -8,7 +8,7 @@ namespace group1.Models
 {
     public class MerchandiseList
     {
-        public virtual int Id { get; set; }
+        public virtual int MerchandiseListId { get; set; }
         [Required]
         public virtual string Item { get; set; }
         [Required]

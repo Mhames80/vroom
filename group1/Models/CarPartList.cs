@@ -8,8 +8,8 @@ namespace group1.Models
 {
     public class CarPartList
     {
-
-        public virtual int Id { get; set; }
+        [Key]
+        public virtual int CarPartListId { get; set; }
         [Required]
         public virtual string   Part{get; set; }
         [Required]

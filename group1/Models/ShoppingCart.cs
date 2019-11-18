@@ -9,7 +9,11 @@ namespace group1.Models
     {
 
         public virtual int Id { get; set; }
+        //foreign key
+        public virtual int CarPartListId { get; set; }
         public virtual List<CarPartList> CarPartList { get; set; }
+        //foreign key
+        public virtual int MerchandiseListId { get; set; }
         public virtual List<MerchandiseList> MerchandiseLists { get; set; }
     }
 }
