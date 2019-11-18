@@ -9,10 +9,14 @@ namespace group1.Models
     public class MerchandiseList
     {
         public virtual int Id { get; set; }
+        [Required]
         public virtual string Item { get; set; }
+        [Required]
         public virtual string Size { get; set; }
+        [Required]
         [DataType(DataType.Currency)]
         public virtual Decimal Price { get; set; }
+        [Required]
         public virtual int Quanity { get; set; }
     }
 }
