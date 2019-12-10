@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+  margin: 0;
+
+  font-family: "Alatsi", sans-serif;
+}
+body {
+  margin: auto;
+  padding: auto;
+  height: auto;
+  /* background-image: url("../img/bg1.jpeg"); */
+  background-color: aqua;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+header h1.title {
+  margin: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+body h3.homeStatement {
+  margin: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+/* Logo centering */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Navigation Bar */
+nav {
+  width: 510px;
+  margin: 0 auto;
+}
+
+nav ul {
+  height: 50px;
+  list-style-type: none;
+  padding: 0 30px;
+  margin: 0;
+}
+nav li {
+  height: 50px;
+  padding: 0;
+  margin: 0 5px 0 0;
+  float: left;
+}
+nav li a {
+  height: 15px;
+  display: block;
+  padding: 10px 15px 20px 15px;
+  text-decoration: none;
+  background-color: lightgreen;
+}
+nav li a:link {
+  color: #333;
+}
+nav li a:visited {
+  color: #333;
+}
+nav li a:hover {
+  color: white;
+  background-color: black;
+}
+nav li a:active {
+  background-color: green;
+  color: #f30;
+}
+
+/* Text Align  */
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+/* section css,
+float evenly side by side news article */
+.newsL {
+  float: left;
+  width: 32%;
+  height: 555px;
+}
+.newsM {
+  float: left;
+  width: 32%;
+  height: 555px;
+}
+.newsL {
+  float: right;
+  width: 32%;
+  height: 555px;
+}
